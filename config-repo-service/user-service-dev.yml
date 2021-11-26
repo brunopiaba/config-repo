@@ -37,4 +37,4 @@ flyway:
 springdoc:
   show-actuator: true
   api-docs:
-    path: endereco-service/v3/api-docs
+    path: user-service/v3/api-docs
