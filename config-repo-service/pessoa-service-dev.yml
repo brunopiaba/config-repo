@@ -37,4 +37,4 @@ spring:
 springdoc:
   show-actuator: true
   api-docs:
-    path: book-service/v3/api-docs
+    path: pessoa-service/v3/api-docs
