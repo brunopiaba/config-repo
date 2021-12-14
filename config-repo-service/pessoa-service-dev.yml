@@ -10,6 +10,11 @@ management:
       exposure:
         include:
         - '*'
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/auth/realms/gateway-service/protocol/openid-connect/certs
 spring:
 #  application:
 #    name: book-service
