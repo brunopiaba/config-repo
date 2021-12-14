@@ -10,14 +10,14 @@ management:
       exposure:
         include:
         - '*'
+spring:
+#  application:
+#    name: book-service
   security:
     oauth2:
       resourceserver:
         jwt:
           jwk-set-uri: http://localhost:8080/auth/realms/gateway-service/protocol/openid-connect/certs
-spring:
-#  application:
-#    name: book-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/book_service?useTimezone=true&serverTimezone=UTC
